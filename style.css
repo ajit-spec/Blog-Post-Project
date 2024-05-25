@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Mukta", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .main-content.info {
+    font-family: "Bitter", serif;
+    letter-spacing: 1.5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+.main-content,
+.hero-section .hero-section-container {
+    min-width: 400px;
+    margin: auto;
+}
+
+.color-orange-shade {
+    color: #e95400;
+}
+
+.hero-section,
+.main-footer {
+    background-color: blueviolet;
+}
+
+.hero-section {
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .hero-section-container {
+    width: 80%;
+}
+
+.main-content {
+    width: 70%;
+    padding: 40px 0;
+}
+
+.hero-section h1 {
+    font-size: 60px;
+}
+
+.main-content .info {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main-content h2 {
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+.main-content .headline {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: 30px;
+    border-left: 2px solid #e95400;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+blockquote footer {
+    margin-left: 20px;
+}
+
+blockquote cite {
+    font-weight: 700;
+}
+
+.main-content p {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+code {
+    color: #e95400;
+    font-weight: 700;
+}
+
+.main-footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main-footer ul {
+    list-style: none;
+}
+
+.main-footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-footer ul li:last-of-type {
+    margin-right: 0;
+}
+
+.main-footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.main-footer ul li a:hover {
+    text-decoration: underline;
+}
